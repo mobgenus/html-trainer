@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: blue;
+            margin: 0px;
+        }
+        header {
+            background-color: aqua;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(255, 32, 32);
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 5px 3px 7px 1px black;
+        }
+        nav > a {
+            text-decoration: none;
+            color: aliceblue;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+
+        }
+        main {
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.521);
+        }
+        article {
+            background-color: chartreuse;
+            padding: 10px;
+        }
+        aside {
+            background-color: rgb(117, 170, 170);
+        }
+        footer {
+            background-color: darkslategrey;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        footer > p {
+            margin: 0px;
+        }
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: aliceblue;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+            <a href="#">link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p> MAYK JOAO FLAVIO PAREDAO</p>
+        </section>
+        <section id="noticia">
+            <article>
+                <h2>MOBGENUS POW</h2>
+                <aside>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem provident consequatur in, commodi dolorum quidem officia quam vero qui? Harum corrupti corporis maxime fugit vitae voluptatum rerum aperiam, tempore mollitia!</p>
+                    <p>Artigo escrito por mob</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Thaliston</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
